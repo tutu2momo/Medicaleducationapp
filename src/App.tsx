@@ -43,7 +43,7 @@ function AnimatedRoutes() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Medicaleducationapp">
       <div className="bg-gray-100 min-h-screen flex justify-center">
         <div className="w-full max-w-md bg-white min-h-screen shadow-2xl overflow-hidden relative">
           <AnimatedRoutes />
