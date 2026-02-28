@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-medical-50: #E8F0FE;
+  --color-medical-100: #D2E3FC;
+  --color-medical-200: #AECBFA;
+  --color-medical-300: #8AB4F8;
+  --color-medical-400: #669DF6;
+  --color-medical-500: #4285F4;
+  --color-medical-600: #1A73E8;
+  --color-medical-700: #1967D2;
+  --color-medical-800: #185ABC;
+  --color-medical-900: #174EA6;
+  
+  --color-status-success: #34A853;
+  --color-status-warning: #FBBC04;
+  --color-status-error: #EA4335;
+}
+
+body {
+  background-color: #F5F7FA;
+  font-family: 'Inter', sans-serif;
+  color: #202124;
+}
