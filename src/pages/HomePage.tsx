@@ -90,7 +90,12 @@ export default function HomePage() {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold text-gray-900 border-l-4 border-medical-600 pl-2">录播课程推荐</h2>
-            <Button variant="ghost" size="sm" className="text-xs text-gray-500 h-auto p-0 hover:bg-transparent">
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="text-xs text-gray-500 h-auto p-0 hover:bg-transparent"
+              onClick={() => navigate('/recorded-courses')}
+            >
               查看全部 <ChevronRight className="w-3 h-3 ml-1" />
             </Button>
           </div>
@@ -127,7 +132,12 @@ export default function HomePage() {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-bold text-gray-900 border-l-4 border-orange-500 pl-2">直播课程预告</h2>
-            <Button variant="ghost" size="sm" className="text-xs text-gray-500 h-auto p-0 hover:bg-transparent">
+            <Button 
+              variant="ghost" 
+              size="sm" 
+              className="text-xs text-gray-500 h-auto p-0 hover:bg-transparent"
+              onClick={() => navigate('/live-calendar')}
+            >
               查看全部 <ChevronRight className="w-3 h-3 ml-1" />
             </Button>
           </div>
